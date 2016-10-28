@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coffee Machine</title>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+
+
+    <link  href='css/main.css'  rel="stylesheet" />
+ 	<script src="js/main.js" type="text/javascript"></script>
+   
+</head>
+<body>
+
+
+<button type="button" class="btn" onclick="insertCoin(0.1)">0.1</button>
+<button type="button" class="btn" onclick="insertCoin(0.2)">0.2</button>
+<button type="button" class="btn" onclick="insertCoin(0.5)">0.5</button>
+<button type="button" class="btn" onclick="insertCoin(1)">1</button>
+<p id ="sum">СУМА</p>
+
+<button type="button" class="btn" onclick="orderCoffee(0.3)">Кафе: 30ст</button>
+<button type="button" class="btn" onclick="orderCoffee(0.4)">Кафе със сметана: 40ст</button>
+<button type="button" class="btn" onclick="orderCoffee(0.5)">Горещ шоколад: 50ст</button>
+<p id ="change">РЕСТО</p>
+
+<button type="button" class="btn" onclick="takeChange(sum)">Вземи Ресто</button>
+
+
+</body>
+</html>
